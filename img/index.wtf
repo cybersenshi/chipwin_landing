@@ -1,0 +1,265 @@
+<!doctype html>
+<head>
+  <title>DrawnCon Season 2 &ndash; November 15-16, 2014 &ndash; Westford, MA</title>
+  <meta name="keywords" content="drawncon, cartoon, convention" />
+  <meta name="description" content="DrawnCon is the premier convention for western animation. With great panels and amazing guests, come celebrate cartoons like never before." />
+
+  <meta content="width=device-width, initial-scale=1.0, minimum-scale = 1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <meta name="robots" content="all" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="author" href="humans.txt" />
+
+  <meta property="og:title" content="DrawnCon 2014 is coming back" />
+  <meta property="og:description" content="DrawnCon is the premier convention for western animation. With great panels and amazing guests, come celebrate cartoons like never before." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://drawncon.com" />
+  <meta property="og:image" content="/images/opengraph.png" />
+
+  <link rel="apple-touch-icon" href="/images/apple-touch/apple-touch-icon-60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch/apple-touch-icon-76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch/apple-touch-icon-120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch/apple-touch-icon-152.png">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/app2.css" />
+
+</head>
+
+<body>
+  <header role="banner" class="primary">
+    <div class="liner">
+      <nav>
+        <ul role="navigation">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#location">Where</a>
+          </li>
+          <li>
+            <a href="http://store.drawncon.com">Register</a>
+          </li>
+          <li>
+            <a href="#events">Events</a>
+          </li>
+          <li>
+            <a href="#vendors">Vendors</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="banner">
+        <a href="#" class="brand">
+          <h1>DrawnCon</h1>
+        </a>
+        <span class="dates">November 15-16, 2014 &bull; Westford, MA</span>
+        <a href="#" class="menu-toggle">Menu</a>
+      </div>
+    </div>
+  </header>
+  <div role="main" class="content">
+
+    <section id="about" class="about">
+      <div class="liner">
+        <h2>Cartoons are for <span class="fill-in-blank"><span class="audience"></span></span></h2>
+        <p>DrawnCon is the premier convention for western animation. With great panels and amazing guests, come celebrate cartoons like never before.</p>
+
+        <div class="actions">
+
+          <div class="action register-btn">
+            <a href="http://store.drawncon.com/" class="btn btn-purple"><span>Register Now</span></a>
+          </div>
+
+          <div class="action newsletter-signup">
+            <h3>Sign up for updates!</h3>
+
+            <div class="form-status form-success alert success">
+              <span class="mailchimp-msg">Success! Thank you.</span>
+              <a href="#" class="form-reset">Subscribe another email.</a>
+            </div>
+
+            <div class="form-status form-fail alert danger">
+              <span class="mailchimp-msg"></span>
+              There was a problem, please contact <strong>info@drawncon.com</strong>.
+            </div>
+
+            <form data-action="http://drawncon.us3.list-manage2.com/subscribe/post-json?u=15bf06b513c0f11d46b4ccd86&id=d0afc649f0&c=?" method="GET">
+              <div class="form-element">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required data-validation="email" data-validation-error-msg="Not a valid email address" />
+                <input type="hidden" name="double_optin" value="false" />
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;">
+                  <input type="text" name="b_15bf06b513c0f11d46b4ccd86_d0afc649f0" value="">
+                </div>
+              </div>
+              <div class="form-element">
+                <input type="submit" class="btn btn-semiblue" value="Subscribe" />
+              </div>
+              <div class="clearfix"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="location" class="location divide">
+      <div class="map"></div>
+      <div class="liner">
+        <h2>Venue &amp; How To Get Here</h2>
+        <p>All of DrawnCon goes down under one roof at the Westford Regency. Located in the heart of the Merrimack Valley, the Westford Regency Inn &amp; Conference Center is conveniently located off of Interstate 495.</p>
+        <address>
+          <p>
+            <span class="location">Westford Regency</span>
+            <span class="street-addr">219 Littleton Road</span>
+            <span class="city-state-postal">Westford, MA 01886</span>
+            <span class="tel">+1 (978) 692-8200</span>
+          </p>
+        </address>
+        <div class="btn-group">
+          <a href="http://store.drawncon.com" class="btn btn-small">Reserve Room Through Us</a>
+          <a href="http://tiny.cc/s4cacx" class="btn btn-small" target="_blank">Directions</a>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </section>
+
+    <section class="apply divide">
+      <div class="liner">
+
+        <div id="events" class="half events">
+          <h2>Run an Event!</h2>
+          <p>Is there something that you really want to see at DrawnCon this year? Why not make it happen yourself? Apply to run your own panel or event and help make this con the best ever!</p>
+          <div class="action-box">
+            <a href="https://docs.google.com/forms/d/1P-nJsTxKsE66liE4uoHDeRdC26JhVH4SiYkPzRkqrrc/viewform" class="btn btn-semiblue">Suggest an Event</a>
+          </div>
+        </div>
+
+        <div id="vendors" class="half vendors">
+          <h2>Sell stuff!</h2>
+          <p>We are seeking to build an exciting and diverse vendor room and welcome all kinds of artists. Please remember, all artwork must be your own. Resale of copyrighted images or logos on your products is prohibited (unless you are a licensed vendor of official products).</p>
+          <p>Tables are $75 each, which includes the price of one badge for the convention. Table payment will be due promptly after you&rsquo;re accepted. For an additional $25 you can register one assistant to help you with your table. You may choose to have more assistants than this, but they will have to purchase a regular badge.</p>
+          <div class="action-box">
+            <a href="https://docs.google.com/a/emilybennet.com/forms/d/1UnRHCmUjiS00SwBDRyEp-wCta4Uyg6Annhschh1InYU/viewform" class="btn btn-purple">Apply to Vend</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="guests divide">
+      <div class="liner">
+        <h2>Guests</h2>
+        <ul class="unstyled guest-list">
+          <li>
+            <div class="pic">
+              <img src="/images/guests/hale.jpg" alt="Jennifer Hale headshot" />
+            </div>
+            <div class="bio">
+              <h3>Jennifer Hale</h3>
+                <p>Dark and determined Commander Shepard from <span style="font-style:italic;">Mass Effect</span>, ever hopeful and shining Cinderella, psychotic Princess Morebucks and sunny Ms Keane from <span style="font-style:italic;">The Powerpuff Girls</span>, sleek and sexy Naomi Hunter from the <span style="font-style:italic;">Metal Gear</span> Series, superspy Sam and superspoiled Mandy from <span style="font-style:italic;">&lsquo;Totally Spies&rsquo;</span>, and super fighter Aayla Secura from <span style="font-style:italic;">Star Wars Clone Wars</span> all have one thing in common.</p>
+                <p>Their spirits and their voices spring from the heart of Jennifer Hale.</p>
+                <p>Jennifer has brought to life a wild range of characters from a disgruntled 12 year old boy, to a timeless heroic princess, a quirky ancient alien, a ridiculously perky tour guide, a rock star, a shy four year old and a sizzling super-bad girl. At the top of her field in animation, commercials, and promos, Jennifer is responsible for these and many more memorable characters as well as lending her signature voice to many products and programs familiar to all of us.</p>
+                <p>A singer as well as an actress, Jennifer is currently working on her first solo CD.  When she&rsquo;s not acting or singing, she&rsquo;s hanging out with her friends and family, riding horses, rock climbing or volunteering.</p>
+            </div>
+            <div class="clearfix"></div>
+          </li>
+          <li>
+            <div class="pic">
+              <img src="/images/guests/warrock.jpg" alt="Adam WarRock headshot" />
+            </div>
+            <div class="bio">
+              <h3>Adam WarRock</h3>
+              <p>Adam WarRock&rsquo;s unique brand of indie nerd raps has amassed him an Internet following that has stretched to every realm of fandom, ranging from comic books, TV, movies, video games, and more. His pop cultural-based songs have been featured in TIME, the New York Times, SPIN; sites such as The AVClub, WIRED, NYMag&rsquo;s Vulture, io9; and have garnered attention from cultural celebrities such as Nathan Fillion, Edgar Wright, Dan Stevens of Downtown Abbey, and Ron Swanson himself, Nick Offerman. Having released three full-length albums and a veteran of multiple national tours, his music and stage presence has electrified crowds at Comic Cons, SXSW, university shows, and events across the country. With over a million views on Youtube, and an army of followers online, his live show continues to storm venues as he brings his brand of nerdy hip hop to the public. In the words of so many bloggers, journalists and fans, &ldquo;it&rsquo;s not just Internet good, it is goddamn brilliant.&rdquo;</p>
+            </div>
+            <div class="clearfix"></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+
+  </div>
+  <div class="footer-crown">
+    <div class="liner"></div>
+  </div>
+  <footer class="primary" role="contentinfo">
+    <div class="liner">
+
+      <div class="contact-info">
+
+        <section class="newsletter-signup">
+          <h3>Stay in the Loop</h3>
+
+          <div class="form-status form-success alert success">
+            <span class="mailchimp-msg">Success! Thank you.</span>
+            <a href="#" class="form-reset">Subscribe another email.</a>
+          </div>
+
+          <div class="form-status form-fail alert danger">
+            <span class="mailchimp-msg"></span>
+            There was a problem, please contact <strong>info@drawncon.com</strong>.
+          </div>
+
+          <form data-action="http://drawncon.us3.list-manage2.com/subscribe/post-json?u=15bf06b513c0f11d46b4ccd86&id=d0afc649f0&c=?" method="GET">
+            <div class="form-element">
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required data-validation="email" data-validation-error-msg="Not a valid email address" />
+              <input type="hidden" name="double_optin" value="false" />
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;">
+                <input type="text" name="b_15bf06b513c0f11d46b4ccd86_d0afc649f0" value="">
+              </div>
+            </div>
+            <div class="form-element">
+              <input type="submit" class="btn btn-yellow" value="Subscribe" />
+            </div>
+            <div class="clearfix"></div>
+          </form>
+        </section>
+
+        <nav class="social">
+          <ul>
+            <li>
+              <a href="http://www.facebook.com/drawncon" class="ss-facebook">
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.facebook.com/drawncon" class="ss-twitter">
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li> 
+            <li>
+              <a href="http://drawncon.tumblr.com" class="ss-tumblr">
+                <span class="sr-only">Tumblr</span>
+              </a>
+            </li> 
+            <li>
+              <a href="mailto:info@drawncon.com" class="ss-mail">
+                <span class="sr-only">Email</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="copyright">
+        <p><a href="http://2013.drawncon.com">Visit the DrawnCon 2013 website.</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/app.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41212496-1', 'drawncon.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

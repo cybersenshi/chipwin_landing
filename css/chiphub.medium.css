@@ -1,0 +1,24 @@
+body{
+  text-shadow: 3px 3px black;
+}
+
+.zoomity{
+  max-width: 33%;
+  height: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#centerP{
+  top: 55%;
+}
+
+#subText{
+  top: 67.5%;
+}
+
+#signup{
+  width: 66%;
+}
+
+
