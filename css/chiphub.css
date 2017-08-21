@@ -1,3 +1,45 @@
+@import url("font.css");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 body {
   background-image: url("../img/V5_logo.png"), url("../img/chip_bg.png"), linear-gradient(135deg, #fa0000 0%, #fa5d00 10%, #ffd401 20%, #40ff01 30%, #01ffe5 40%, #007cff 50%, #0202f8 60%, #3d00fe 70%, #ff00f4 80%, #ff00bc 90%);
   background-position: 50% 50%, center center, center center;
@@ -19,8 +61,7 @@ a {
 a:hover {
   transform: scale(1.1);
   color: black;
-  text-shadow: -2px -2px white;
-  text-decoration: underline double red; }
+  text-shadow: -2px -2px white; }
 
 .zoomity {
   max-width: 66.6%;
