@@ -48,7 +48,7 @@ table {
   font-weight: normal;
   font-style: normal; }
 body {
-  background-image: url("../img/V5_logo.png"), url("../img/chip_bg.png"), linear-gradient(135deg, #fa0000 0%, #fa5d00 10%, #ffd401 20%, #40ff01 30%, #01ffe5 40%, #007cff 50%, #0202f8 60%, #3d00fe 70%, #ff00f4 80%, #ff00bc 90%);
+  background-image: url(../img/V6_logo.png), url(../img/chip_bg.png), linear-gradient(135deg, #fa0000 0%, #fa5d00 10%, #ffd401 20%, #40ff01 30%, #01ffe5 40%, #007cff 50%, #0202f8 60%, #3d00fe 70%, #ff00f4 80%, #ff00bc 90%);
   background-position: 50% 50%, center center, center center;
   background-repeat: no-repeat, repeat, repeat;
   color: white;
@@ -58,34 +58,25 @@ body {
   overflow: hidden;
   font-family: chickenscratch, sans-serif;
   text-decoration: none;
-  text-transform: uppercase;
-  text-shadow: -4px -4px black; }
+  text-transform: uppercase; }
 
 a {
   color: white;
   text-decoration: none; }
 
 a:hover {
-  transform: scale(1.1);
   color: whitesmoke;
   text-shadow: 5px 5px black; }
 
-.zoomity {
-  max-width: 66.6%;
-  height: auto;
-  padding-left: 2.5%;
-  padding-right: 2.5%; }
+header {
+  position: absolute;
+  top: 55%; }
 
-.zoomity:hover {
-  transform: scale(1.1); }
-
-.icon {
-  max-width: 17.5%;
-  padding: 1%;
-  height: auto; }
-
-.icon:hover {
-  transform: scale(1.2); }
+h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 5.5vw; }
 
 h3 {
   position: absolute;
@@ -99,23 +90,19 @@ h3 {
 
 .catbox {
   position: absolute;
-  width: 17.5%;
-  height: 17.5%;
   line-height: 1.1;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 1em;
   background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
-  background-clip: content-box; }
+  background-repeat: no-repeat; }
 
-.catBox.One {
+.catbox.one {
   background-image: url("../img/BoxBorder_Red.png"); }
 
-.catBox.Two {
+.catbox.two {
   background-image: url("../img/BoxBorder_Blue.png"); }
 
-.icoBox {
+.icobox {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -124,8 +111,27 @@ h3 {
   top: 50%;
   transform: translateY(-50%); }
 
-.bkdpText {
-  background: rgba(85, 93, 80, 0.3);
+dl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+dt {
+  flex-basis: 100%;
+  margin-top: -17px;
+  font-size: 2vw; }
+
+dd {
+  padding-right: 1em; }
+
+dd img:hover {
+  transform: scale(1.1); }
+
+.bkdptext {
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  background: rgba(85, 93, 80, 0.7);
   line-height: 1;
   border-radius: 10px; }
 
@@ -157,7 +163,7 @@ h3 {
   border-top: 4px solid white;
   border-bottom: 4px solid white; }
 
-#centerP {
+#centerp {
   position: absolute;
   top: 55%;
   margin-left: auto;
@@ -166,7 +172,7 @@ h3 {
   right: 0;
   font-size: 5.5vw; }
 
-#subText {
+#subtext {
   position: absolute;
   top: 67.5%;
   margin-left: auto;
@@ -175,16 +181,15 @@ h3 {
   right: 0;
   font-size: 2.5vw; }
 
-#navbar {
-  display: none;
-  position: absolute;
-  top: 55%;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0; }
-
-#signup {
+/*#navbar
+ * display: none
+ * position: absolute
+ * top: 55%
+ * margin-left: auto
+ * margin-right: auto
+ * left: 0
+ * right: 0 */
+.signup {
   position: absolute;
   top: 87.5%;
   width: 50%;
