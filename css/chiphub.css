@@ -55,15 +55,14 @@ body {
   text-align: center;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
   font-family: chickenscratch, sans-serif;
   text-decoration: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-shadow: 3px 3px black; }
 
 a {
   color: white;
-  text-decoration: none;
-  text-shadow: 3px 3px black; }
+  text-decoration: none; }
 
 a:hover {
   color: whitesmoke;
@@ -97,6 +96,10 @@ h3 {
   font-size: 2vw;
   text-transform: uppercase; }
 
+h4 {
+  padding: 0.5rem;
+  font-size: 1.5rem; }
+
 .bkdptext {
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -108,15 +111,17 @@ h3 {
   position: absolute;
   width: 250px;
   line-height: 1.1;
-  padding: 1em;
+  padding: 1rem;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat; }
 
 .cb_one {
+  min-height: 120px;
   background-image: url("../img/BoxBorder_Red.png"); }
 
 .cb_two {
+  min-height: 90px;
   background-image: url("../img/BoxBorder_Blue.png"); }
 
 dl {
@@ -127,8 +132,13 @@ dl {
 
 dt {
   flex-basis: 100%;
-  margin-top: -17px;
   font-size: 1.5rem; }
+
+.cb_one dt {
+  margin-top: -17px; }
+
+.cb_two dt {
+  margin-top: -26px; }
 
 dd {
   padding-right: 0.6em; }
@@ -175,93 +185,14 @@ dd img:hover {
 
 .signup {
   position: absolute;
-  display: block;
   top: 87.5%;
-  width: 50%;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
+  width: 50%;
   background-image: url("../img/chip_bg.png"), linear-gradient(90deg, #0173ef 0%, #c101d8 50%, #ff0400 0%);
   border: 2px solid white;
-  border-radius: 10px;
-  font-size: 2.5rem;
-  text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black; }
-
-#bonusBox {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(85, 93, 80, 0.75); }
-
-#bImgBox {
-  position: absolute;
-  top: 15%;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0; }
-
-#bImg {
-  max-width: 50%; }
-
-#bText {
-  position: absolute;
-  top: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  font-size: 5.5vw; }
-
-#nlEmail {
-  position: absolute;
-  width: 36%;
-  height: 25%;
-  top: 50%;
-  left: 5%;
-  padding: 0 0.5% 0 0.5%;
-  font-size: 1vw;
-  text-align: center;
-  border-radius: 4px; }
-
-#nlLabel {
-  position: absolute;
-  padding-top: 1%;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  font-size: 1.75vw; }
-
-#nlSubmit {
-  position: absolute;
-  width: 40%;
-  height: 33%;
-  top: 50%;
-  left: 55%;
-  padding: 0 0.5% 0 0.5%;
-  border-radius: 4px;
-  background-color: #000000;
-  border: 1px solid #999999;
-  border-bottom: 1px solid #333333;
-  color: white;
-  font-family: chickenscratch, sans-serif;
-  font-size: 1.33vw;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black;
-  text-align: center; }
-
-#nlSubmit:hover {
-  background-color: #333333;
-  border: 1px solid #111111;
-  cursor: pointer; }
-
-#nlSubmit.active {
-  border: 1px solid #111111; }
+  border-radius: 10px; }
 
 /*# sourceMappingURL=chiphub.css.map */
